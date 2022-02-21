@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Instruction"
+    android:background="@drawable/img_2">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="274dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="25dp"
+
+        android:text="Instructions "
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/instruction"
+        android:layout_width="match_parent"
+        android:layout_height="468dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity=""
+
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="71dp"
+
+        android:layout_marginEnd="0dp"
+
+        android:layout_marginBottom="192dp"
+        android:gravity="left|right"
+        android:lineSpacingExtra="10sp"
+        android:paddingStart="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="10dp"
+
+        android:textColor="@color/cardview_dark_background"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:scrollbarAlwaysDrawHorizontalTrack="true"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:singleLine="false"
+        android:text="TextView"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="116dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="78dp"
+        android:lineSpacingMultiplier="2"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+
+        android:text="NOTE: If you click “FINISH” once, you WILL NOT be able to
+answer any more questions.
+
+"
+        android:textSize="15sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="119dp"
+        android:layout_height="50dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="15dp"
+
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+
+        android:layout_marginEnd="20dp"
+        android:drawableRight="@drawable/ic_baseline_arrow_forward_24"
+
+
+        android:background="@drawable/shape"
+        android:text="Next" />
+
+
+</RelativeLayout>

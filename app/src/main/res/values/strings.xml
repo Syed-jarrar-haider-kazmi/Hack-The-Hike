@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Hack The Hike</string>
+    <dimen name="siez_1">40px</dimen>
+    <dimen name="siez_2">50px</dimen>
+
+        <color name="colorPrimary">#3F51B5</color>
+        <color name="colorPrimaryDark">#303F9F</color>
+        <color name="colorAccent">#FF4081</color>
+
+    <dimen name="siez_3">25sp</dimen>
+</resources>
